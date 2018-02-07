@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp">
+
+        <Button
+            android:id="@+id/btbb"
+            android:layout_width="257dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/dongnae"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.091" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt1"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gwangjang_bg"
+                    android:onClick="gangnam_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.215"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.295" />
+
+                <Button
+                    android:id="@+id/bt2"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gui_1_bg"
+                    android:onClick="gangdong_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.788"
+                    app:layout_constraintVertical_bias="0.295" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt3"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gui_2_bg"
+                    android:onClick="gangbuk_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.215"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.295" />
+
+                <Button
+                    android:id="@+id/bt4"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gui_3_bg"
+                    android:onClick="gangsu_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.788"
+                    app:layout_constraintVertical_bias="0.295" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt5"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/gunja_bg"
+                    android:onClick="gwanak_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.215"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.295" />
+
+                <Button
+                    android:id="@+id/bt6"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/neong_bg"
+                    android:onClick="gwangjin_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.788"
+                    app:layout_constraintVertical_bias="0.295" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt7"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/jayang_1_bg"
+                    android:onClick="guro_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.215"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.295" />
+
+                <Button
+                    android:id="@+id/bt8"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/jayang_2_bg"
+                    android:onClick="geomchun_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.788"
+                    app:layout_constraintVertical_bias="0.295" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt9"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/jayang_3_bg"
+                    android:onClick="nowon_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.215"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.295" />
+
+                <Button
+                    android:id="@+id/bt10"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/jayang_4_bg"
+                    android:onClick="dobong_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.788"
+                    app:layout_constraintVertical_bias="0.295" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt11"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/junggok_1_bg"
+                    android:onClick="dongdaemun_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.215"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.295" />
+
+                <Button
+                    android:id="@+id/bt12"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/junggok_2_bg"
+                    android:onClick="dongjak_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.788"
+                    app:layout_constraintVertical_bias="0.295" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt13"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/junggok_3_bg"
+                    android:onClick="dongdaemun_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.215"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.295" />
+
+                <Button
+                    android:id="@+id/bt14"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/junggok_4_bg"
+                    android:onClick="dongjak_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.788"
+                    app:layout_constraintVertical_bias="0.295" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt15"
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hwayang_bg"
+                    android:onClick="dongdaemun_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.215"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.295" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
